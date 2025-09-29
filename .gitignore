@@ -43,3 +43,9 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+assets/keys/private_key.pem
+assets/keys/public_key.pem
+assets/keys/private_key_jwk.json
+assets/keys/public_key_jwk.json
+!assets/keys/README.md

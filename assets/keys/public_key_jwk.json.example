@@ -1,0 +1,10 @@
+  // 公開鍵JWK - QRコード検証時で使用
+  // jose_plusのJsonWebKeyStore.addKey()に追加して署名検証
+{
+  "kty": "EC",        // 鍵タイプ: 楕円曲線
+  "crv": "P-256",     // 曲線: P-256 (ES256で必須)
+  "x": "f83OJ3D2xF1Bg8vub9tLe1gHMzV76e8Tus9uPHvRVEU",  // 公開鍵 x座標（検証で使用）
+  "y": "x_FEzRu9m36HLN_tue659LNpXW6pCyStikYjKIWI5a0",  // 公開鍵 y座標（検証で使用）
+  "alg": "ES256",     // 署名アルゴリズム
+  "use": "sig"        // 用途: 署名検証
+}

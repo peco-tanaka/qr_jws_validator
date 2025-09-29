@@ -1,0 +1,11 @@
+  // 秘密鍵JWK - QRコード生成時に使用
+  // jose_plusのJsonWebSignatureBuilder.addRecipient()に渡す
+{
+  "kty": "EC",        // 鍵タイプ: 楕円曲線
+  "crv": "P-256",     // 曲線: P-256 (ES256で必須)
+  "x": "f83OJ3D2xF1Bg8vub9tLe1gHMzV76e8Tus9uPHvRVEU",  // 公開鍵 x座標
+  "y": "x_FEzRu9m36HLN_tue659LNpXW6pCyStikYjKIWI5a0",  // 公開鍵 y座標
+  "d": "jpsQnnGQmL-YBIffH1136cspYG6-0iY7X1fCE9-E9LI",  // 秘密鍵値（署名生成で使用）
+  "alg": "ES256",     // 署名アルゴリズム
+  "use": "sig"        // 用途: 署名
+}
